@@ -395,20 +395,21 @@ header {
     text-align: center;   
 } 
 
-@media (max-width: 400px) {
+/* @media (max-width: 500px) {
     .my-work {
         background-color: var(--color-dark);
         color: var(--color-light);
-        text-align: center;   
+        text-align: center;
+        margin-bottom: -500px;   
 }
-}
+} */
 
-.portfolio {
-    margin: 0 auto;
-    max-width: 1000px;
-    display: grid;
-    grid-gap: 2em;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    .portfolio {
+        margin: 0 auto;
+        max-width: 1000px;
+        display: grid;
+        grid-gap: 2em;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 @media (max-width: 400px) {
@@ -419,6 +420,9 @@ header {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 170px 170px 170px 170px 170px 170px;
 }
+}
+
+
 
 .portfolio__item {
     background: var(--color-accent);
