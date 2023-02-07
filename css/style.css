@@ -404,6 +404,13 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+@media (max-width: 400px) {
+    .portfolio {
+        display: grid;
+        grid-template-rows: auto;
+    }
+}
+
 .portfolio__item {
     background: var(--color-accent);
     overflow: hidden;
