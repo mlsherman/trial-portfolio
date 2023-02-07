@@ -412,10 +412,9 @@ header {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .portfolio {
-        margin: 0 auto;
-        grid-gap: 2em;
+        
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 170px 170px 170px 170px 170px 170px;
