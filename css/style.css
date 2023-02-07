@@ -407,7 +407,7 @@ header {
 @media (max-width: 400px) {
     .portfolio {
         display: grid;
-        grid-template-rows: auto;
+        grid-template-rows: 150px 150px;
     }
 }
 
