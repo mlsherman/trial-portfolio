@@ -407,7 +407,8 @@ header {
 @media (min-width: 300px) {
     .portfolio {
         display: grid;
-        grid-template-rows: 150px 150px 150px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: 300px 300px 300px 300px 300px 300px;
     }
 }
 
