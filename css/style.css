@@ -389,11 +389,19 @@ header {
 }
 
 /* My Work */
-
 .my-work {
     background-color: var(--color-dark);
     color: var(--color-light);
-    text-align: center;    
+    text-align: center;   
+} 
+
+@media (max-width: 500px) {
+    .my-work {
+        background-color: var(--color-dark);
+        color: var(--color-light);
+        text-align: center;   
+        margin-bottom: -550px; 
+}
 }
 
 .portfolio {
@@ -404,8 +412,10 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .portfolio {
+        margin: 0 auto;
+        grid-gap: 2em;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 170px 170px 170px 170px 170px 170px;
