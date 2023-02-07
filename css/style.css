@@ -408,7 +408,7 @@ header {
     .portfolio {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 160px 160px 160px 160px 160px 160px;
+        grid-template-rows: 170px 170px 170px 170px 170px 170px;
 }
 
 .portfolio__item {
