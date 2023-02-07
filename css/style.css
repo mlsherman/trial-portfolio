@@ -404,10 +404,10 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) {
     .portfolio {
         display: grid;
-        grid-template-rows: 150px 150px;
+        grid-template-rows: 100px 100px;
     }
 }
 
